@@ -1,0 +1,14 @@
+CPU: AMD Ryzen 9 5900X - 12 core, 24 thread, Base 3.7Ghz Boost 4.8Ghz - L2 Cache 6MB, L3 Cache 24MB
+GPU: AMD-Sapphire 580 NITRO+ - 8GB VRAM GDDR5 @2304Mhz base, 8000Mhz effective.
+RAM: Crucial Ballistix BL2K16G36C16U4W - 32GB (2x16GB) @3600 MHz, DDR4, CL16
+MOBO: ASUS ROG STRIX B550-F GAMING - AMDB550 Chipset(Series 4000, 5000), Max 128GB RAM @4400Mhz, 
+STORAGE:
+		-SAMSUNG 980 PRO - SSD M2, 1TB, Interfaccia PCIe 4.0x4 NVMe, 7000 MB/s in lettura, 5000 MB/s in scrittura
+		-SAMSUNG 970 EVO - SSD M2, 1TB, Interfaccia PCIe NVMe, 3400 MB/s in lettura, 2500 MB/s in scrittura
+		-SAMSUNG 860 EVO - SSD 2.5", 1TB, Interfaccia SATA 6Gb/s, 550 MB/s in lettura, 520 BM/s in scrittura
+		-Seagate BarraCuda 4 TB - HDD 3.5", SMR Technology, 4TB, Interfaccia SATA 6Gb/s, 256MB Cache, 5400 RPM, 
+
+PSU: Corsair RM750x - 750W, 12V, Gold Efficency
+COOLER: Noctua NH-D15 chromax.black 82.52 CFM
+Additional Fans: Corsair ML120, 120mm, Levitazione Magnetica, Niente LED
+CASE: CoolerMaster H500 ATX Tower, 2x200mm Frontal Fans con RGB Controller, 1x120mm Back Fan, 2xUSB 2.0 ports, 2xUSB 3.0 ports
