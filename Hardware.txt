@@ -1,7 +1,7 @@
 CPU: AMD Ryzen 9 5900X - 12 core, 24 thread, Base 3.7Ghz Boost 4.8Ghz - L2 Cache 6MB, L3 Cache 24MB
 GPU: AMD-Sapphire 580 NITRO+ - 8GB VRAM GDDR5 @2304Mhz base, 8000Mhz effective.
 RAM: Crucial Ballistix BL2K16G36C16U4W - 32GB (2x16GB) @3600 MHz, DDR4, CL16
-MOBO: ASUS ROG STRIX B550-F GAMING - AMDB550 Chipset(Series 4000, 5000), Max 128GB RAM @4400Mhz, x1 M2 (PCIe 4.0) slot, x1 M2 (PCIe 3.0) slot, x6 SATA 6Gb/s, Support RAID 0-1-10
+MOBO: ASUS ROG STRIX B550-F GAMING - AMDB550 Chipset(Series 4000, 5000), Max 128GB RAM @4400Mhz, x1 M2 (PCIe 4.0) slot, x1 M2 (PCIe 3.0) slot, x6 SATA 6Gb/s, Supports RAID 0-1-10
 STORAGE:
 		-SAMSUNG 980 PRO - SSD M2, 1TB, Interfaccia PCIe 4.0x4 NVMe, 7000 MB/s in lettura, 5000 MB/s in scrittura
 		-SAMSUNG 970 EVO - SSD M2, 1TB, Interfaccia PCIe NVMe, 3400 MB/s in lettura, 2500 MB/s in scrittura
