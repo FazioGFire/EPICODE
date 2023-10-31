@@ -1,1 +1,23 @@
+Il layer di Collegamento Dati rapprensenta il secondo livello(dal basso) nella pila della convenzione Open System Interconnection, famiglia standard IEEE 802.
+Il suo ruolo principale è quello di assicurarsi che la trasmissione dei dati sia codificata per la trasmissione, decodificata per la ricezione, per la gestione del flusso di dati. Inoltre si assicura che transmissione sia priva di errori, rilevando e correggendo errori nel flusso di dati. Si interpone prima(per il mittente) o dopo (per il destinatario) al primo livello fisico, che trasmette i segnali nell'etere o tramite mezzo fisico.
+Il Data Layer è considerato il più complesso dei livelli della pila OSI, ed è suddiviso in due sotto-livelli: 
+	-1) Medium Access Control (MAC) layer, che controlla l'accesso alla rete e regola i permessi di invio/ricezione e le priorità.
+	-2) Logical Link Control (LLC) layer, che identifica ed incapsula i vari protocolli di livello ed esegue il controllo errori e sincronizzazione flussi di dati.
+
+Il livello di collegamento dati è formato da diversi protocolli che si interfacciano con le reti ed i dati. Il ruolo principale dei protocolli è quello di incapsulare le informazioni in pacchetti con un determinato inizio e fine al fine di rendere più semplice l'identificazione completa dell'informazione da trasmittere, senza ometterne parti o includerne sezioni di altri.  
+I protocolli del Data Layer sono i seguenti:
+
+1) Il Synchronous Data Link Control (SDLC): Creato per uso su architetture di rete SNA, sviluppate da IBM nel 1974, ma supporta una varietà molto elevata di tipologie di trasmissione dati, come il point-to-point(uno a uno) o il point-to-multipoint(uno a molti). Il suo ruolo principale è gestire la trasmissione dei dati: Determina inizio e fine frame informazioni, se il destinatario è corretto, identifica errori, di inviare indietro l'ACK al mittente.
+
+2) High-Level Data Link Protocol (HDLC): Sviluppato inizialmente da ISO nel 1979, a partire dall'SDLC. Fornisce le funzionalità di rappresentazione di dati o protocolli tramite spezzoni di dati (frames), aggiungendo dei propri campi lungo tutta la stream di dati per controllare la corretta trasmissione di dati al corretto destinatario, proprio come l'SDLC. Verifica la trasmissione corretta delle informazioni tramite un frame di checksum.
+
+3) Serial Line Interface Protocol (SLIP): Vecchio protocollo che incapsula i pacchetti IP linearmente in frame di generalmente uno o due byte. Non vi è un limite massimo alla dimensione del pacchetto da incapsulare. Stabilisce connessioni point-to-point fino a 19.2 Kbps. Ormai obsoleto e rimpiazzato dal Point to Point Protocol.
+
+4) Point-to-Point Protocol (PPP): Evoluzione dello SLIP che incapsula e trasporta i pacchetti IP. Provvede all'incapsulamento dei dati e protocolli in frame e possiede una propria parte di error-checking. Supporta una gamma più ampia di opzioni non-TCP/IP e di mezzi di trasmissione moderni.
+
+5) Link Control Protocol (LCP): Creato per fornire le funzionalità HDLC su reti local (LAN). Fa parte del PPP.
+
+6) Network Control Protocol (NCP): Parte del PPP, rimpiazzato pienamente dal TCP/IP, creato da ARPANET. Permette l'utilizzo remoto di dispositivi e lo scambio di dati tra due o più computer.
+
+7) Link Access Procedure (LAP): Serie di protocolli richiesti per il framing e trasferimento di dati in connessioni point to point. Ha tre modalità: Balanced, D-channel e Frame Bearer. Ha avuto origine dall'SDLC
 
