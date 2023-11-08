@@ -1,5 +1,8 @@
 Da 7 a 1, poi da 1 a 7
 
+7 - Presumendo che il transferimento dei file avvenga senza alcuna interfaccia web, il primo passaggio a livello Applicativo sarebbe quello di impiegare un software o il proprio sistema operativo per avviare il transferimento tramite protocollo FTP o uno dei suoi derivati come SFTP o FTPS, che aggiungono dei layer di protezione utilizzando rispettivamente l'SSH e l'SSL/TLS.
+
+6 - L'informazione da inviare viene compressa e possibilimente criptata se abbiamo selezionato un protocollo sicuro di transferimento. 
 
 
 
